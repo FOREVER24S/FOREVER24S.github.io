@@ -209,6 +209,7 @@ html[data-theme="dark"] .t-dark { display: inline; }
 .plate svg circle { fill: var(--plate-ink); stroke: none; }
 .plate svg circle.em { fill: var(--plate-ice); }
 .plate-portrait { width: 100%; height: auto; aspect-ratio: 4 / 5; }
+.rail .portrait { width: 100%; height: auto; border: 1px solid var(--kei); filter: grayscale(.12); }
 .slot { background: var(--shoal); border: 1px solid var(--kei); aspect-ratio: 4 / 5; display: grid; place-items: center; }
 .slot::after { content: attr(data-slot); font-family: var(--mono); font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--sea); }
 
