@@ -227,7 +227,7 @@ html[data-theme="dark"] .t-dark { display: inline; }
 }
 .pub:hover { background: var(--shoal); transition-duration: var(--dur-in); }
 .cite-line { font-size: 15.5px; line-height: 1.55; color: var(--contour); margin: 0; max-width: 68ch; }
-.cite-line .me { font-weight: 600; color: var(--sumi); }
+.cite-line .me, .pub__me { font-weight: 600; color: var(--sumi); }
 .cite-line sup { font-size: .68em; line-height: 0; vertical-align: super; }
 .yr, .vol { font-family: var(--mono); font-size: 13px; font-variant-numeric: tabular-nums; }
 .vol { color: var(--sea); }
